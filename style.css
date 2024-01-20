@@ -339,7 +339,7 @@ color: #1C1C19;
 }
 
 #page4{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-color:#C4BCB3;   
     padding-top: 25px;
@@ -347,12 +347,13 @@ color: #1C1C19;
 
 #page4-left{
     display: flex;
-    justify-content: space-between;
+    
 }
 
 #left1{
-    width: 31%;
-padding-left: 18px;
+    height: 100%;
+    width: 28%;
+padding-left: 25px;
 border-right: 1px solid #383432;
 }
 
@@ -387,24 +388,95 @@ border-right: 1px solid #383432;
 }
 
 #left2{
-    height: 30%;
-    width: 80%;
-    padding-left: 20px;
+height: auto;
+width: 40%;
+padding-left: 38px;
+border-right: 1px solid #222;    
+margin-bottom: 28px;
 }
 
 #image-box{
-
-width: 35%;
-overflow: hidden;
+    height: 25vh;
+    width: 75%;
+    overflow: hidden;
+    border: 1.5px solid #050505;
 }
 
-#left2 img{
- 
+#image-box img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
- 
+    cursor:grabbing;
+    
 }
 
-#image-box:hover{
-    scale: 1.2;
+#image-box img:hover{
+    scale:1.1;
+    transition: all ease 0.5s;
+}
+
+#left2 h3{
+    font-family: canopee;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 9px;
+}
+
+#left2 p{
+    font-family: editorial;
+ white-space: nowrap;   
+ margin-top: 9px;
+ font-size: 15px;
+ color: #383432;
+}
+
+
+#left3 h1{
+    font-family: canopee;
+    font-weight: 400;
+    color: #1C1B19;
+    font-size: 100px;
+    line-height: 85px;
+    text-align: center;
+    margin-top: 10px;   
+    letter-spacing: -5px;
+    margin-bottom: 40px;
+    
+}
+
+#left3 h1:nth-child(2){
+    font-size: 180px;
+    font-weight: 500;
+}
+
+#left3 p{
+    font-family: editorial;
+    padding-left: 30px;
+    
+    margin-bottom: 25px;
+    text-wrap: wrap;
+}
+
+#left3 .left3-p1{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+}
+
+#left3 .left3-p1 span{
+    font-size: 60px;
+    color: #C4BCB2;
+    padding: 1px 8px;
+    border-radius: 5px;
+    background-color: #1C1B19;
+    font-family: canopee;
+
+}
+
+#left3 .left3-p2{
+    font-size: 25px;
+    color: #222;
+    text-align: center;   
+    padding-right: 18px;
 }
