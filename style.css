@@ -1,0 +1,410 @@
+@font-face {
+    font-family: canopee;
+    src: url(canopee.ttf);
+}
+
+@font-face {
+    font-family: domain;
+    src: url(domain.ttf);
+}
+
+@font-face {
+    font-family:editorial;
+    src: url(EditorialNew-Light.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+
+#page1{
+    height: 140vh;
+    width: 100vw;
+    background-color:#C4BCB3;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #222;
+}
+
+#nav img{
+    height: 20px;
+    width: 30%;
+}
+
+#nav h5{
+    font-size: 15px;
+    font-weight: 100;
+    font-family:canopee;
+    width: 30%;
+
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#elems{
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+
+#elem1{
+    width: 30%;
+    height: 100%;
+
+}
+
+
+#elem2{
+    width: 30%;
+    height: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    border-right:1px solid #76716B;
+    border-left: 1px solid #76716B;
+    
+}
+
+#elem3{
+    width: 30%;
+    height: 100%;
+    
+    
+}
+
+#elem1 #image-div{
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+#elem3 #image-div{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+
+#image-div img:hover{
+    scale: 1.1;
+}
+
+
+#elem1 h4{
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: canopee;
+
+}
+
+#elem1 h4 span{
+    background-color: #B43B12;
+    font-size: 15px;
+    color: #C4BCB3;
+    padding: 3px;
+    font-weight: 100;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+
+#elem1 pre{
+    font-family:domain;
+    color: #413f3d;
+    font-weight:100;
+    font-size: 18px;
+}
+
+#elem2 h2{
+    font-size: 60px;
+    text-wrap: nowrap;
+    font-family: canopee;
+    font-weight: 100;
+}
+
+#elem2 h3{
+    font-family: domain;
+ font-size: 35px;   
+ color: #1C1C19;
+ font-weight: 100;
+ margin: 20px 0;
+ 
+}
+
+#elem2 h6{
+    font-family: domain;
+ font-size: 17px;   
+color: #383432;
+ font-weight: 100;
+}
+
+#elem2 h6 span{
+    color: #1C1C19;
+    font-family: canopee;
+    font-weight: bold;
+    
+}
+
+#elem3 h4{
+    font-size: 24px;
+    margin-left: -2vw;
+margin-left: 0.2vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-family: canopee;    
+    font-weight: 500;   
+
+}
+
+
+#elem3 h4 span{
+    background-color: #B43B12;
+    font-size: 15px;
+    color: #C4BCB3;
+    padding: 4px;    
+    font-weight: 100;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+#elem3 p{
+    font-family: domain;
+    font-weight: 100;
+    color: #413f3d;
+}
+
+#page1 h1{
+    font-family: canopee;
+    font-size: 450px;
+    letter-spacing: -20px;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color: #C4BCB2;
+    line-height: 380px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#page2{
+    height: 200vh;
+    width: 100%;
+    background-color:#C4BCB3;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+#page2-left{
+    height: 100%;
+    width: 35%;
+    padding-right: 40px;
+    border-right: 1px solid #76716B;
+    
+}
+
+#page2-left h2{
+    font-family: canopee;
+    font-size: 95px;
+    font-weight: 200;
+color: #1C1C19;    
+    line-height: 100px;
+}
+
+#page2-left h2 span{
+    font-size: 140px;
+    font-weight: 600;
+}
+
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #222;
+
+}
+
+#page2-left pre{
+    font-family: domain;
+    font-size: 32px;
+    font-weight: 100;
+    color: #1C1C19;
+    
+}
+
+#page2-left pre span{
+    font-size: 50px;
+    padding: 0px 9px;
+    border-radius: 3px;
+    background-color: #050505;
+    color: #cac9c6;
+    font-family: canopee;
+    
+    
+
+}
+
+
+#page2-right{
+    height: 100%;
+    width:70%;
+ padding-left: 40px;
+    
+}
+
+#page2-right img{
+    height: 50%;
+    width:100%;
+    object-fit: cover;
+    border: 1px solid #222;
+}
+
+#page2-right h1{
+    font-size: 110px;
+    font-weight: 400;
+    font-family: canopee;
+    color: #1C1B19;
+    letter-spacing: -6px;
+    margin-top: 25px;
+    
+}
+
+#page3{
+ height: 70vh;   
+ width: 100%;
+ background-color:#C4BCB3;   
+ display: flex;
+ justify-content: space-between;
+ padding-top: 60px;
+ padding-right: 20px;
+ padding-left: 20px;
+}
+
+#page3 h1{
+    font-family: canopee;
+    font-size: 330px;
+    color: #C4BCB2;
+    background-color: #222;
+    height: 90%;
+    width: 76%;
+    padding-left: 25px;
+    letter-spacing: -2px;
+    line-height: 300px;
+ 
+}
+
+#page3 img{
+    height: 55vh;
+    width: 22%;
+    margin-top: -20px;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color:#C4BCB3;   
+    padding-top: 25px;
+}
+
+#page4-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left1{
+    width: 31%;
+padding-left: 18px;
+border-right: 1px solid #383432;
+}
+
+#left1 h3{
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 50px;
+    white-space: nowrap;
+    letter-spacing: -2px;
+}
+
+#left1 pre{   
+    font-family: editorial;
+    font-size: 30px;
+    color: #1C1B19;
+    margin-top: 6px;
+    line-height: 35px;
+}
+
+#left1 p{
+    color: #1C1B19;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: editorial;
+}
+
+#left1 p span{
+    font-family: canopee;
+    font-weight: 500;
+    color: #050505;
+    font-size: 18px;
+}
+
+#left2{
+    height: 30%;
+    width: 80%;
+    padding-left: 20px;
+}
+
+#image-box{
+
+width: 35%;
+overflow: hidden;
+}
+
+#left2 img{
+ 
+    width: 100%;
+    object-fit: cover;
+ 
+}
+
+#image-box:hover{
+    scale: 1.2;
+}
